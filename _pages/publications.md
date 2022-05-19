@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Publications
+title: publications
 permalink: /publications/
 #description: publications in reversed chronological order.
 years: [2021]
