@@ -6,7 +6,7 @@ title: Kushal Kusram # the website title (if blank, full name will be used inste
 first_name: Kushal
 middle_name: B.
 last_name: Kusram
-email: kushalbkusram@outlook.com
+email: # kushalbkusram@outlook.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A personal website of Kushal Kusram having hosting his thoughts, projects and publications. 
 footer_text: >
@@ -57,12 +57,12 @@ github_username: KushalBKusram # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: KushalBKusram # your Twitter handle
 linkedin_username: KushalBKusram # your LinkedIn user name
-scholar_userid: wVvNILwAAAAJ # your Google Scholar ID
+scholar_userid: # wVvNILwAAAAJ # your Google Scholar ID
 orcid_id: # your ORCID ID
-medium_username: KushalBKusram # your Medium username
-quora_username: Kushal-B-Kusram # your Quora username
+medium_username: # KushalBKusram # your Medium username
+quora_username: # Kushal-B-Kusram # your Quora username
 publons_id: # your ID on Publons
-research_gate_profile: Kushal-Kusram # your profile on ResearchGate
+research_gate_profile: # Kushal-Kusram # your profile on ResearchGate
 blogger_url: # your blogger URL
 work_url: # work page URL
 keybase_username: # your keybase user name
@@ -111,7 +111,7 @@ collections:
     output: true
     permalink: /news/:path/
   projects:
-    output: true
+    output: false
     permalink: /projects/:path/
 
 news_limit: 5
@@ -271,14 +271,14 @@ jekyll-diagrams:
 
 enable_google_analytics:    false  # enables google analytics
 enable_panelbear_analytics: false  # enables panelbear analytics
-enable_google_verification: false  # enables google site verification
+enable_google_verification: true  # enables google site verification
 enable_bing_verification:   false  # enables bing site verification
 enable_masonry:             true   # enables automatic project cards arangement
 enable_math:                true   # enables math typesetting (uses MathJax)
 enable_tooltips:            false  # enables automatic tooltip links generated
                                    # for each section titles on pages and posts
 enable_darkmode:            true   # enables switching between light/dark modes
-enable_navbar_social:       false  # enables displaying social links in the
+enable_navbar_social:       true  # enables displaying social links in the
                                    # navbar on the about page
 enable_project_categories:  true   # enables categorization of projects into
                                    # multiple categories

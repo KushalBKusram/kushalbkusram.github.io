@@ -11,11 +11,11 @@ profile:
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: false  # includes social icons at the bottom of the page
 ---
 
-I am an engineer with formal education in computer science, post-graduate from the University of Colorado, and graduate from Visvesvaraya Technological University. 
+I am an engineer with formal education in computer science, masters from the University of Colorado, and bachelors from Visvesvaraya Technological University. 
 
-My area of research is in computer vision, machine learning, software development, and deployment. 
+My area of research are computer vision, machine learning, software development, and large-scale deployment.
 
-I currently solve crucial sensing problems of the parking industry and work on the development of revolutionary next-gen parking systems at Metropolis as a Computer Vision Application Engineer.
+I currently am advancing sensing and large-scale deployment of the revolutionary next-gen parking system at <a href="https://metropolis.io/">Metropolis</a> as a Computer Vision Application Engineer.
