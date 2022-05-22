@@ -8,10 +8,10 @@ middle_name: B.
 last_name: Kusram
 email: kushalbkusram@outlook.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  # fill something
+  A personal website of Kushal Kusram having hosting his thoughts, projects and publications. 
 footer_text: >
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: portfolio-website  # add your own keywords or leave empty
+keywords: kushal kusram, projects, publications, blog, articles, journals, computer vision engineer, builder  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -57,12 +57,12 @@ github_username: KushalBKusram # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: KushalBKusram # your Twitter handle
 linkedin_username: KushalBKusram # your LinkedIn user name
-scholar_userid: # your Google Scholar ID
+scholar_userid: wVvNILwAAAAJ # your Google Scholar ID
 orcid_id: # your ORCID ID
-medium_username: # your Medium username
-quora_username: # your Quora username
+medium_username: KushalBKusram # your Medium username
+quora_username: Kushal-B-Kusram # your Quora username
 publons_id: # your ID on Publons
-research_gate_profile: # your profile on ResearchGate
+research_gate_profile: Kushal-Kusram # your profile on ResearchGate
 blogger_url: # your blogger URL
 work_url: # work page URL
 keybase_username: # your keybase user name
@@ -73,7 +73,7 @@ stackoverflow_id: #your stackoverflow id
 contact_note: 
 
 google_analytics:  # your google-analytics ID (format: UA-XXXXXXXXX)
-google_site_verification:  # your google-site-verification ID (Google Search Console)
+google_site_verification: google-site-verification=zWPScrT_2S5r3gs14_fsvV__bGQ4aIXzXoUP29a2HUs # your google-site-verification ID (Google Search Console)
 bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 
