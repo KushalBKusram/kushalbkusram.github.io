@@ -18,4 +18,4 @@ I am an engineer with formal education in computer science, masters from the Uni
 
 My area of research are computer vision, machine learning, software development, and large-scale deployment.
 
-I currently am advancing sensing and large-scale deployment of the revolutionary next-gen parking system at <a href="https://metropolis.io/">Metropolis</a> as a Computer Vision Application Engineer.
+I currently am advancing sensing and large-scale deployment of the revolutionary next-gen parking system at <a href="https://metropolis.io/">Metropolis</a> as a Senior Machine Learning Application Engineer.
