@@ -1,0 +1,54 @@
+/* Shared theme for the standalone GitHub Pages sites of my repos.
+   Mirrors the main site (kushalbkusram.github.io): purple accent in light mode,
+   cyan in dark mode, Roboto body text and Roboto Slab headings.
+   Load fonts separately:
+   https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:300,400,500 */
+
+:root {
+  --g-bg: #ffffff;
+  --g-fg: #000000;
+  --g-muted: #5f5f5f;
+  --g-card: #ffffff;
+  --g-line: rgba(0, 0, 0, .12);
+  --g-accent: #b509ac;
+  --g-accent-fg: #ffffff;
+  --g-code: rgba(181, 9, 172, .06);
+  --g-font: Roboto, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --g-font-head: "Roboto Slab", Roboto, Georgia, serif;
+  --g-mono: ui-monospace, SFMono-Regular, Menlo, monospace;
+  --g-radius: 10px;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --g-bg: #1c1c1d; --g-fg: #e8e8e8; --g-muted: #a8a8a8; --g-card: #212529;
+    --g-line: #424246; --g-accent: #2698ba; --g-accent-fg: #0b0b0b; --g-code: #2c3237;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --g-bg: #1c1c1d; --g-fg: #e8e8e8; --g-muted: #a8a8a8; --g-card: #212529;
+  --g-line: #424246; --g-accent: #2698ba; --g-accent-fg: #0b0b0b; --g-code: #2c3237;
+  color-scheme: dark;
+}
+
+/* ---- shared top bar ---- */
+.site-bar { border-bottom: 1px solid var(--g-line); background: var(--g-bg); font: 400 15px/1.4 var(--g-font); }
+.site-bar__in { max-width: 1040px; margin: 0 auto; padding: 12px 20px; display: flex; align-items: center; gap: 16px; }
+.site-bar a { color: var(--g-accent); text-decoration: none; white-space: nowrap; }
+.site-bar a:hover { text-decoration: underline; }
+.site-bar__crumb { color: var(--g-muted) !important; }
+.site-bar__title { font: 500 15px var(--g-font); color: var(--g-fg); white-space: nowrap; }
+.site-bar__spacer { flex: 1; }
+.site-bar__links { display: flex; gap: 16px; }
+.site-bar__links a { color: var(--g-muted); }
+.site-bar__theme { background: none; border: 1px solid var(--g-line); color: var(--g-fg); border-radius: 8px; width: 34px; height: 30px; cursor: pointer; font-size: 15px; line-height: 1; }
+.site-bar__theme:hover { border-color: var(--g-accent); }
+@media (max-width: 640px) {
+  .site-bar__crumb, .site-bar__links, .site-bar__title { display: none; }
+}
+
+/* ---- shared footer ---- */
+.site-foot { border-top: 1px solid var(--g-line); margin-top: 48px; padding: 24px 0 48px; color: var(--g-muted); font: 400 14px/1.6 var(--g-font); }
+.site-foot a { color: var(--g-accent); }
+.site-foot .wrapin { max-width: 1040px; margin: 0 auto; padding: 0 20px; }
