@@ -1,12 +1,21 @@
 # Repos that have their own GitHub Pages site. Order here = order on the page.
 - title: Ember
+  abbr: iOS
+  tagline: Private on-device AI assistant for iPhone, v1.0.0
+  github: https://github.com/KushalBKusram/Ember
   url: https://kushalbkusram.github.io/Ember/
   description: A private, on-device AI assistant for iPhone with memory, notes, files and calendar, built on Apple Foundation Models. Nothing leaves your device.
 - title: ReaderFlow
+  abbr: Prototype
+  tagline: Local-first reading-to-podcast Mac app with encrypted nearby sync
+  github: https://github.com/KushalBKusram/ReaderFlow
   featured: true
   url: https://kushalbkusram.github.io/ReaderFlow/
   description: A local-first prototype that turns saved Raindrop articles into short podcast episodes on your Mac. It includes Raindrop OAuth and encrypted, resumable nearby sync to a phone.
 - title: Waymo Open Dataset Toolkit
+  abbr: Benchmark
+  tagline: Reproducible camera, LiDAR and fusion perception benchmark, v2.1.0
+  github: https://github.com/KushalBKusram/WaymoOpenDatasetToolKit
   featured: true
   url: https://kushalbkusram.github.io/WaymoOpenDatasetToolKit/
   description: A reproducible perception benchmark for the Waymo Open Dataset covering camera, LiDAR and fused detection plus a tracking baseline. Includes the data extraction tools behind my Waymo blog posts.
