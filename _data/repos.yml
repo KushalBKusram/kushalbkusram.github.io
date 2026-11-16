@@ -3,8 +3,10 @@
   url: https://kushalbkusram.github.io/Ember/
   description: A private, on-device AI assistant for iPhone with memory, notes, files and calendar, built on Apple Foundation Models. Nothing leaves your device.
 - title: ReaderFlow
+  featured: true
   url: https://kushalbkusram.github.io/ReaderFlow/
   description: A local-first prototype that turns saved Raindrop articles into short podcast episodes on your Mac. It includes Raindrop OAuth and encrypted, resumable nearby sync to a phone.
 - title: Waymo Open Dataset Toolkit
+  featured: true
   url: https://kushalbkusram.github.io/WaymoOpenDatasetToolKit/
   description: A reproducible perception benchmark for the Waymo Open Dataset covering camera, LiDAR and fused detection plus a tracking baseline. Includes the data extraction tools behind my Waymo blog posts.

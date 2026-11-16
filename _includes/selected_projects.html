@@ -1,0 +1,22 @@
+<div class="selected-projects">
+  <h2>selected projects</h2>
+  <div class="row">
+    {%- for repo in site.data.repos -%}
+    {%- if repo.featured %}
+    <div class="col-md-6 mb-3">
+      <div class="card h-100">
+        <div class="card-body">
+          <h3 class="card-title"><a href="{{ repo.url }}">{{ repo.title }}</a></h3>
+          <p class="card-text">{{ repo.description }}</p>
+        </div>
+      </div>
+    </div>
+    {%- endif -%}
+    {%- endfor %}
+  </div>
+  <p><a href="{{ '/projects/' | relative_url }}">all projects &rarr;</a></p>
+</div>
+<style>
+  .selected-projects .card-text { color: var(--global-text-color); }
+  .selected-projects .card-title { font-size: 1.4rem; margin-bottom: .5rem; }
+</style>
