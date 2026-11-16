@@ -2,7 +2,6 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Open-source repos that have their own project site.
 nav: true
 nav_order: 3
 ---
