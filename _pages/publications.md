@@ -5,6 +5,7 @@ permalink: /publications/
 #description: publications in reversed chronological order.
 years: [2021]
 nav: true
+nav_order: 4
 ---
 <!-- _pages/publications.md -->
 <div class="publications">
