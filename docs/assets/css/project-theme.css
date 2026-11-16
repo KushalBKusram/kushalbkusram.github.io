@@ -1,8 +1,8 @@
 /* Shared theme for the standalone GitHub Pages sites of my repos.
    Mirrors the main site (kushalbkusram.github.io): purple accent in light mode,
-   cyan in dark mode, Roboto body text and Roboto Slab headings.
-   Load fonts separately:
-   https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:300,400,500 */
+   cyan in dark mode, Roboto (light) for body and headings.
+   Load the font separately:
+   https://fonts.googleapis.com/css?family=Roboto:300,400,500,700 */
 
 :root {
   --g-bg: #ffffff;
@@ -14,7 +14,8 @@
   --g-accent-fg: #ffffff;
   --g-code: rgba(181, 9, 172, .06);
   --g-font: Roboto, system-ui, -apple-system, "Segoe UI", sans-serif;
-  --g-font-head: "Roboto Slab", Roboto, Georgia, serif;
+  --g-font-head: var(--g-font);
+  --g-size: 16px;
   --g-mono: ui-monospace, SFMono-Regular, Menlo, monospace;
   --g-radius: 10px;
   color-scheme: light;
@@ -52,3 +53,8 @@
 .site-foot { border-top: 1px solid var(--g-line); margin-top: 48px; padding: 24px 0 48px; color: var(--g-muted); font: 400 14px/1.6 var(--g-font); }
 .site-foot a { color: var(--g-accent); }
 .site-foot .wrapin { max-width: 1040px; margin: 0 auto; padding: 0 20px; }
+
+/* ---- shared typography (same as the main site: Roboto, light weight) ---- */
+body { font-family: var(--g-font); font-weight: 300; font-size: var(--g-size); }
+h1, h2 { font-family: var(--g-font-head); font-weight: 300; }
+h3, h4 { font-family: var(--g-font-head); font-weight: 500; }
